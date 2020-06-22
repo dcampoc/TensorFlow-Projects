@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Generation of a manual NN that performs add and multiplication operations through OOP
+Generation of a manual NN that performs addition and multiplication operations through OOP
 
 @author: dcamp
 """
