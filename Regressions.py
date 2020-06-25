@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jun 24 12:05:15 2020
+Regression examples using TF
 
 @author: dcamp
 """
