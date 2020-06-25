@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Generation of a manual NN that performs addition and multiplication operations through OOP
+It just create the NN but does not perform the back-propagation step
 
 @author: dcamp
 """
