@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jun 24 12:05:15 2020
-Regression examples using TF
 
 @author: dcamp
 """
@@ -48,6 +47,8 @@ train = optimizer.minimize(error)
 
 init = tf.global_variables_initializer()
 
+saver = tf.train.Saver()
+
 with tf.Session() as sess:
     sess.run(init)
     m_init = m.eval()
@@ -63,6 +64,8 @@ with tf.Session() as sess:
         sess.run(train,feed_dict=feed)
     
     model_m, model_b = sess.run([m,b])
+    print('Save the model'.upper())
+    saver.save(sess,'models_saved/simpleLR.ckpt')
     
  
 ind_rand = np.random.randint(len(x_data), size=250)
@@ -145,4 +148,6 @@ plt.ylabel('x', fontsize=16)
 plt.xlabel('y', fontsize=16)
 plt.title('Estimation using TF')
 plt.show()
+
+
 
