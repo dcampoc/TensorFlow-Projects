@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jun 26 10:55:39 2020
-Exercize showing the application of TF.estimator API
+Exercise showing the application of TF.estimator API for regression purposes
 
 @author: dcamp
 """

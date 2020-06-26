@@ -45,7 +45,7 @@ diabetes['Age'].hist(bins=25)
 age_bucket = tf.feature_column.bucketized_column(age,boundaries=[20,30,40,50,60,70,80])
 feat_cols = [num_preg ,plasma_gluc,dias_press,tricep ,insulin,bmi,diabetes_pedigree,assigned_group_2, age_bucket]
 
-# Seprating the featires from the class
+# Separating the featires from the class
 x_data = diabetes.drop('Class', axis=1)
 x_data.head()
 labels = diabetes['Class']
