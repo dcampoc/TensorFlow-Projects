@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Load and test of RNNs (GRU or LSTM) produced with the algorithm "RNN_API.py". 
-Please run "RNN_API.py" first or copy and paste the trained models (located at the folder "API_trained_models") in the current folder
+Load and test on some data the RNNs (GRU or LSTM) produced with the algorithm "RNN_API.py". Please run first the algorithm RNN_API.py
 
 @author: dcamp
 """
