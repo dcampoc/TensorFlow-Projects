@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jun 25 19:17:21 2020
-Classfication example using TF. A linear classifier and a densely neural network (fully-connected NN) are compared
+Classfication example using TF API (estimator). A linear classifier and a densely neural network (fully-connected NN) are compared
 
 @author: dcamp
 """
