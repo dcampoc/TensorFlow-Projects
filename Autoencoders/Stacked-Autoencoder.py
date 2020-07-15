@@ -28,6 +28,7 @@ act_func = tf.nn.relu
 # Placeholder 
 X = tf.placeholder(tf.float32, shape=[None, num_inputs])
 
+# The variance initializer is essential to set weight values depending on the number of inputs that each layer receives 
 initializer = tf.variance_scaling_initializer()
 
 # Weights
