@@ -67,7 +67,7 @@ with tf.Session() as sess:
     
     # Epoch == Entire Training Set
     for epoch in range(num_epochs):
-        
+        # The double '/' outputs the closet integer after performing the division 
         num_batches = mnist.train.num_examples // batch_size
         
         # 150 batch size
@@ -91,6 +91,7 @@ with tf.Session() as sess:
     saver.restore(sess,"./stacked_autoencoder.ckpt")
     
     results = output_layer.eval(feed_dict={X:mnist.test.images[:num_test_images]})
+   # For testing an intermidiate hidden layer, please try: results = hid_layer2.eval(feed_dict={X:mnist.test.images[:num_test_images]})
 
 # Compare original images with their reconstructions
 f, a = plt.subplots(2, 10, figsize=(20, 4))
