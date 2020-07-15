@@ -1,0 +1,21 @@
+Simpler Reinforcement Learning API with Keras. I would recommend checking this out if you plan to do RL in the future, its a lot easier to play with this than manually implement techniques in TF.
+
+https://github.com/matthiasplappert/keras-rl
+
+Huge Repo of Implemented RL Algos:
+
+https://github.com/dennybritz/reinforcement-learning
+
+Berkeley Course on RL and DL:
+
+http://rll.berkeley.edu/deeprlcourse/
+
+Nice Series of Articles on RL:
+
+https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0
+
+Some great books on RL:
+
+* Richard S. Sutton and Andrew G. Barto. Reinforcement Learning. 
+* Stuart J. Russell and Peter Norvig. Artificial Intelligence. A Modern Approach.
+* Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning.  
