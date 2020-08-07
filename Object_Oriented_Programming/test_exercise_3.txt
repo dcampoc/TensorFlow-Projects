@@ -1,0 +1,3 @@
+sql_query=SELECT * FROM table_1 WHERE column_a > 0
+email=me@domain.com
+num_retries=10
