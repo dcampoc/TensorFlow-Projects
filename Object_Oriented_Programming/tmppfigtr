@@ -1,0 +1,11 @@
+# In a file called test_myprogram.py  (The prefix test_ is neccesary in for testing the code)
+###############################################    
+# We are not going to run "myprogram", all we are gonna do it is import it to have access to its functions and test them individually
+
+import pytest 
+import myprogram 
+
+# The prefix "test_" is neccesary here for making python understand we are taking the doubleit method from myprogram.py
+def test_doubleit():
+    # assert remains silent if the argument at its right is True 
+    assert myprogram.doubleit(10) == 20
